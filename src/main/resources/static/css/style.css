@@ -1,0 +1,55 @@
+*, :after, :before { box-sizing: border-box; }
+
+body {
+    font-family: sans-serif;
+    background-image: url(../images/travel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10%;
+}
+
+.main {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    background-color: #b9f1dc;
+    text-align: center;
+    padding: 3%;
+    padding-bottom: 3%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    border: black 1px solid;
+}
+
+h2 {
+    font-weight: 300;
+    color: #051313;
+    text-align: center;
+    font-family: "Apple Braille";
+}
+
+h1 {
+    color: #130b1a;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Apple Braille";
+}
+
+@media (max-width: 1200px)  {
+    h1 {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 0.8rem;
+    }
+
+    .main {
+        margin-left: 15%;
+    }
+}
